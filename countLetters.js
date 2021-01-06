@@ -20,7 +20,7 @@ const countLetters = function(sentence) {
   } return letterCount;
 };
 
-
+console.log(countLetters("hola senor como esta"));
 assertEqual(countLetters("hola me llamo stephan").h, 2);
 assertEqual(countLetters("hola me llamo stephan").o, 2);
 assertEqual(countLetters("hola me llamo stephan").l, 2);
