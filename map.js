@@ -26,7 +26,7 @@ const venezuelaCities = ["caracas", "valencia", "maracaibo"];
 const map = function(array, callback) {
 
   const results = [];
-  for(let item of array){
+  for (let item of array) {
     results.push(callback(item));
   }
   return results;
@@ -35,9 +35,9 @@ const map = function(array, callback) {
 const results1 = map(words, word => word[0]);
 console.log(results1);
 
-const results2 = map(venezuelaCities, venezuelaCity => venezuelaCity[1])
-console.log(results2)
+const results2 = map(venezuelaCities, venezuelaCity => venezuelaCity[1]);
+console.log(results2);
 
 
-assertArraysEqual(results1, ["f", "c", "l", "e", "s"])
-assertArraysEqual(results2, ["a", "a", "a"])
+assertArraysEqual(results1, ["f", "c", "l", "e", "s"]);
+assertArraysEqual(results2, ["a", "a", "a"]);
