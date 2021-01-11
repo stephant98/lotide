@@ -32,14 +32,16 @@ const takeUntil = function(array, callback) {
   } return accumulator;
 };
 
-const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
-const results = takeUntil(data1, data => data < 0);
+//const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
+//const results = takeUntil(data1, data => data < 0);
 
-console.log(results);
+//console.log(results);
 
-const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
-const results2 = takeUntil(data2, x => x === ',');
-console.log(results2);
+//const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
+//const results2 = takeUntil(data2, x => x === ',');
+//console.log(results2);
 
-assertArraysEqual(results, [1, 2, 5, 7, 2]);
-assertArraysEqual(results2, ["I've", "been", "to", "Hollywood"]);
+//assertArraysEqual(results, [1, 2, 5, 7, 2]);
+//assertArraysEqual(results2, ["I've", "been", "to", "Hollywood"]);
+
+module.exports = takeUntil;
