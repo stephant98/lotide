@@ -40,7 +40,7 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-const hola = { a: [1, 2, 3], b: [3, 3, 4]};
+/*const hola = { a: [1, 2, 3], b: [3, 3, 4]};
 const hello = { a: [1, 2, 3], b:[3, 2, 4]};
 assertObjectsEqual(hola, hello);
 
@@ -58,4 +58,6 @@ const dc = { d: ["2", 3], c: "1" };
 assertObjectsEqual(cd, dc);
 
 const cd2 = { c: "1", d: ["2", 3, 4] };
-assertObjectsEqual(cd, cd2);
+assertObjectsEqual(cd, cd2);*/
+
+module.exports = assertObjectsEqual;

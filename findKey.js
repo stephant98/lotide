@@ -25,7 +25,7 @@ const result = findKey({
 
 
 
-assertEqual(result, "noma");
+//assertEqual(result, "noma");
 
 
 
@@ -35,4 +35,6 @@ const result2 = findKey({
   "caracas": { hotness: "nothing"}
 }, item => item.hotness === "very");
 
-assertEqual(result2, "maracaibo");
+//assertEqual(result2, "maracaibo");
+
+module.exports = findKey;

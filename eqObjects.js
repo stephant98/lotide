@@ -40,12 +40,12 @@ const eqObjects = function(object1, object2) {
   } return true;
 };
 
+module.exports = eqObjects;
 
 
 
 
-
-const ab = { a: "1", b: "2" };
+/*const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
 assertEqual(eqObjects(ab, ba), true); // => true
 
@@ -62,4 +62,4 @@ assertEqual(eqObjects(cd, cd2), false); // => false
 
 const hola = { a: [1, 2, 3], b: [3, 3, 4]};
 const hello = { a: [1, 2, 3], b:[3, 2, 4]};
-assertEqual(eqObjects(hola, hello), true);
+assertEqual(eqObjects(hola, hello), true);*/

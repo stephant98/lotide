@@ -12,7 +12,7 @@ const letterPositions = function(sentence) {
   } return results;
 };
 
-console.log(letterPositions("lighthouse in the house"));
+//console.log(letterPositions("lighthouse in the house"));
 
 const eqArrays = function(array1 , array2) {
   if (array1.length !== array2.length) {
@@ -34,4 +34,6 @@ const assertArraysEqual = function(array1 , array2) {
   }
 };
 
-assertArraysEqual(letterPositions("lighthouse in the house").h, [3, 5, 15, 18]);
+//assertArraysEqual(letterPositions("lighthouse in the house").h, [3, 5, 15, 18]);
+
+module.exports = letterPositions;
